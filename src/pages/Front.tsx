@@ -8,11 +8,15 @@ export function Front() {
     return (
         <>
             Hello and welcome to the cards.
+            <div className="row">
             {sortedCardData.map((card) => (
-                <div key={card.url} className={card.faction}>
+                <div className="col-md-3">
+                    <div key={card.url} className={card.faction}>
                     <Link to={card.url}>{card.title}</Link>
-                </div>
+                </div></div>
+
             ))}
+            </div>
         </>
     );
 }

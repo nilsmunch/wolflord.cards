@@ -9,11 +9,11 @@ export class CardInfo extends Component<{ card: any }> {
                 <h1>{card.title}</h1>
                 <h3>{card.faction} {card.type}</h3>
 
-                <h3>Mechanics:</h3>
+                <h4>Mechanics:</h4>
                 <div dangerouslySetInnerHTML={{ __html: card.cardtext }} />
 
                 {card.background != '' &&
-                    <><h3>Backstory:</h3><div dangerouslySetInnerHTML={{ __html: card.background }} /></>
+                    (<><h4>Backstory:</h4><div dangerouslySetInnerHTML={{ __html: card.background }} /></>)
         }
             </>
         );
