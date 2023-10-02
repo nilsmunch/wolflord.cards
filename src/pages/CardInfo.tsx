@@ -6,7 +6,7 @@ export class CardInfo extends Component<{ card: any }> {
 
         return (
             <>
-                <h1>{card.title}</h1>
+                <h1 className={card.faction}>{card.title}</h1>
                 <h3>{card.faction} {card.type}</h3>
 
                 <h4>Mechanics:</h4>
