@@ -1,3 +1,7 @@
+strong {
+    color:black;
+}
+
 
 .Wolf a, h1.Wolf, strong.Wolf {
     border-left:6px solid #bf0000;
@@ -17,6 +21,11 @@
 .Rule a, h1.Rule, strong.Rule {
     border-left:6px solid #bf9000;
     color:#856400;
+}
+
+.nodot li {
+    style-type: none !important;
+    list-style-type: none !important;
 }
 
 h1 {

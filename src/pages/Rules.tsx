@@ -12,18 +12,18 @@ export function Rules() {
 
 
             <h3>Teams:</h3>
-            <ol>
+            <ul className="nodot">
                 <li><strong className="Wolf role">Wolf:</strong> The primary aggressors of the game. Their objective is to eliminate the Town team and attain voting majority.</li>
                 <li><strong className="Town role">Town:</strong> The majority faction. Their objective is to eliminate all hunting members of the Wolf team.</li>
                 <li><strong className="Chaos role">Chaos:</strong> A wildcard faction with unique objectives. They are uninformed and in the minority. Their goals can vary from ensuring specific players survive to achieving certain end-game states.</li>
-            </ol>
+            </ul>
 
             <h2>Setup:</h2>
-            <ol>
+            <ul className="nodot">
                 <li>A designated player assumes the role of the Game Master (GM).</li>
                 <li>The GM shuffles the role cards and deals one to each player. Players secretly view their role but do not reveal it to others.</li>
                 <li>The number of Wolves, Town, and Chaos members depends on the total number of players and can be adjusted for game balance.</li>
-            </ol>
+            </ul>
 
             <h2>Gameplay:</h2>
             <p>The game is played in alternating Day and Night phases.</p>
@@ -37,18 +37,18 @@ export function Rules() {
             </ol>
 
             <h3>Night Phase:</h3>
-            <ol>
+            <ul className="nodot">
                 <li>All players "sleep" (close their eyes).</li>
                 <li>The GM will call on certain roles (based on the role cards) to "wake up" and perform their night actions. Not all roles may have night actions.</li>
                 <li>The Wolf team goes first, then the Town team, then the Chaos team.</li>
                 <li>After all night actions are completed, the GM will announce the dawn of a new day.</li>
-            </ol>
+            </ul>
 
             <p><strong>End of Night Phase:</strong> The GM reveals if someone has been killed during the night but does not reveal their role card. Any other effects are announced afterwards.</p>
 
             <h2>Ending the Game:</h2>
-            <ol>
-                <li>
+            <ul className="nodot">
+                <li className="nodot">
                     <strong className="Wolf role">Wolf Victory:</strong><br/>
                     If the day phase begins where the wolves have ABSOLUTE voting majority (including special effects, bonus votes ect) the game is won by the wolves.
                 <br/> The wolves also win IMMEDIATELY if the number of living Town roles reaches zero.
@@ -66,7 +66,7 @@ export function Rules() {
                     <br/>
                     In some VERY special cases, a chaos member can also change the victory to a CHAOS VICTORY, where all chaos roles are victorious, and both the wolf and town teams are considered defeated.
                 </li>
-            </ol>
+            </ul>
         </>
     );
 }
