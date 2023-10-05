@@ -114,7 +114,7 @@ const cardData: CardData[] = [
         title: 'Baba Yaga',
         url: '/babayaga',
         faction: 'Chaos',
-        type: 'Defender',
+        type: 'Specialist',
         artist: '',
         cardtext: 'Any character using their nighttime abilities on Baba Yaga receive protection for the night.<br/>If lynched, all characters that received protection last night are eliminated.',
         background: 'In the dense, impenetrable woods of Slavonia, where shadows whispered secrets and trees bore witness to ages long past, there dwelt an enigma as old as the land itself: Baba Yaga. An ancient crone, she lived in a peculiar hut that stood on chicken legs, its entrance forever guarded by the skulls of those who dared to seek her wisdom without respect.<br/>Baba Yaga, with her gnarled fingers and sharp, hawk-like eyes, was a being of contrasts. To some, she was the embodiment of nature\'s unbridled wrath; to others, a guardian of ancient knowledge and arcane mysteries. But all knew one undeniable truth: seeking her aid came with its own set of perils.<br/>Whispers in Slavonia spoke of desperate souls who ventured into the woods, drawn by tales of Baba Yaga\'s unmatched power. Her aid was never freely given; it always demanded a price, often far greater than one was prepared to pay.<br/>A young maiden once sought her to win the heart of a prince. Baba Yaga agreed, granting her a potion of irresistible allure. But the potion\'s magic turned twisted, binding the prince not in love but in unbreakable chains of obsession. The maiden\'s life became one of relentless pursuit, devoid of freedom or respite.<br/>Another tale spoke of a brave warrior who implored Baba Yaga for the strength to vanquish his foes. The crone granted his wish, but with a dire twist. The warrior\'s strength grew boundless, but so did his rage. Unable to differentiate friend from foe, he became a threat to the very people he had sworn to protect.<br/>Yet, not all tales of Baba Yaga were cautionary. Occasionally, those with pure intentions and humble hearts found not a malevolent trickster, but a wise mentor. Such was the story of a young orphan who sought the crone not for power or riches but to understand the language of the woods. Recognizing the boy\'s genuine quest, Baba Yaga guided him, teaching him nature\'s symphony and the secrets of the forest.<br/>Baba Yaga\'s lore was a mirror to the very essence of nature — unpredictable, wild, and neither wholly good nor wholly evil. It served as a stark reminder in Slavonia: seeking the aid of the ancient crone was a gamble, a dance with fate where one misstep could lead to unimaginable consequences. Yet, for those who approached her with respect and honesty, there lay the potential for wisdom and transformation beyond their wildest dreams.'
@@ -675,15 +675,6 @@ const cardData: CardData[] = [
         type: 'Survivor',
         artist: '',
         cardtext: 'When a Chaos role dies, you absorb a copy of their abilities and winning conditions.',
-        background: ''
-    },
-    {
-        title: 'Game Master',
-        url: '/gamemaster',
-        faction: 'Rule',
-        type: 'Survivor',
-        artist: 'Dom Critelli',
-        cardtext: 'The gamemaster is not a playing participant, but the player that keeps track of all elements of the game.',
         background: ''
     },
     {
@@ -1248,7 +1239,7 @@ const cardData: CardData[] = [
         title: 'Nick Ranchez',
         url: '/nickranchez',
         faction: 'Chaos',
-        type: 'Defender',
+        type: 'Specialist',
         artist: '',
         cardtext: 'If Eliminated, proclaim a special non-wolf role.<br/>If it is still alive, it gets revealed and you survive.',
         background: ''
@@ -1860,7 +1851,7 @@ const cardData: CardData[] = [
         title: 'Talos',
         url: '/talos',
         faction: 'Chaos',
-        type: 'Defender',
+        type: 'Specialist',
         artist: '',
         cardtext: 'When the game begins, pick a player.<br/>If that player dies (including lynching), you die instead.<br/>Your target player must survive the game for you to win.',
         background: ''

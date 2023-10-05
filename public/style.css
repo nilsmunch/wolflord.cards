@@ -1,12 +1,38 @@
-/*
-Theme Name: Eldritch
-Theme URI: https://eldritch.qodeinteractive.com/
-Description: An Epic Theme for Gaming and eSports
-Author: Edge Themes
-Author URI: http://themeforest.net/user/edge-themes
-Version: 1.7
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: eldritch
-Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, translation-ready
-*/
+strong {
+    color:black;
+}
+
+
+.Wolf a, h1.Wolf, strong.Wolf {
+    border-left:6px solid #bf0000;
+    color:#800000;
+}
+
+.Town a, h1.Town, strong.Town {
+    border-left:6px solid #2478b7;
+    color:#18507a;
+}
+
+.Chaos a, h1.Chaos, strong.Chaos {
+    border-left:6px solid #6aa84f;
+    color:#3f642f;
+}
+
+.Rule a, h1.Rule, strong.Rule {
+    border-left:6px solid #bf9000;
+    color:#856400;
+}
+
+.nodot li {
+    style-type: none !important;
+    list-style-type: none !important;
+}
+
+h1 {
+    border-left: 0px !important;
+}
+
+.role {
+    padding-left:5px;
+    margin-left: 5px;
+}
